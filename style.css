@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.black-header{
+    background-color: black;
+    height: 100px;
+    color: white;
+    justify-content: center;
+    display: flex;
+    
+}
+.black-header h1{
+    margin-top: 50px;
+}
+.choices{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.rock{
+    height: 110px;
+    width: 110px;
+    /* object-fit: cover; */
+    border-radius: 100%;
+    /* border: black solid 2px; */
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.rock img{
+    height: 100px;
+    width: 100px;
+}
+.rock:hover{
+    /* opacity: 0.7; */
+    background-color: black;
+}
+.rock img{
+ height: 100px;
+
+}
+.scorecard{
+    margin-top: 50px;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    font-size: 40px;
+}
+
+.msg{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    /* height: 20px; */
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    object-fit: contain;
+    
+}
+#message{
+    color: white;
+    border-radius: 1rem;
+    padding: 10px;
+    background-color: rgb(2, 2, 37);  
+}
